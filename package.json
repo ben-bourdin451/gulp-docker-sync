@@ -1,0 +1,36 @@
+{
+  "name": "gulp-docker-sync",
+  "version": "0.0.1",
+  "description": "Sync files with a Docker container",
+  "license": "MIT",
+  "repository": "ben-bourdin451/gulp-docker-sync",
+  "author": {
+    "name": "Ben Bourdin",
+    "email": "ben.bourdin451@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "file",
+    "files",
+    "sync",
+    "docker",
+    "copy"
+  ],
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "gulp-util": "^3.0.0",
+    "path": "^0.12.7",
+    "plur": "^2.1.2",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "path-exists": "^1.0.0"
+  }
+}
